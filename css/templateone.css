@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+i {
+  font-size: 600px;
+  background-color: red;
+  color: blue;
+}
+.parent {
+  background-color: #eee;
+}
+.container {
+  width: 600px;
+  margin: auto;
+  background-color: #aaa;
+}
+input {
+  width: 100%;
+}
