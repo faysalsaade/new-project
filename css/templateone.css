@@ -1,19 +1,29 @@
 * {
   box-sizing: border-box;
 }
-i {
-  font-size: 600px;
-  background-color: red;
-  color: blue;
-}
 .parent {
   background-color: #eee;
 }
 .container {
-  width: 600px;
   margin: auto;
   background-color: #aaa;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
-input {
-  width: 100%;
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
