@@ -97,8 +97,8 @@
   padding: 25px;
 }
 .header .links ul li:not(:last-child) a {
-  border: 1px solid #ddd;
+  border: 1px  solid #ddd;
 }
 .landing {
-  background-image: url(../images/imgres\\.htm);
+  background-image: url(..);
 }
