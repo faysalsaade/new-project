@@ -97,8 +97,28 @@
   padding: 25px;
 }
 .header .links ul li:not(:last-child) a {
-  border: 1px  solid #ddd;
+  border: 1px solid #ddd;
 }
 .landing {
-  background-image: url(..);
+  background-image: url("/images/new_image.jpg");
+  background-size: cover;
+  height: calc(102vh - 89px);
+  position: relative;
+}
+.landing .intro-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.landing .intro-text h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 50px;
+  color: #10cab7;
+}
+.landing .intro-text p {
+  font-size: 19px;
+  line-height: 1.8;
 }
