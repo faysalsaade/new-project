@@ -111,6 +111,8 @@
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 320px;
+  max-width: 100%;
 }
 .landing .intro-text h1 {
   margin: 0;

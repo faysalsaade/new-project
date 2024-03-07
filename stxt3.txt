@@ -1,1 +1,3 @@
 ya habibi fi mawke2 ismou font awesom fik tjib menou link fiyon ikon w tehaten bi malef el html bel body
+ max-width: 100%; fina nasta2mela hata iza kaber aw se3er el mobile ma yetla2 bara el screen  line-height: 1.8; bte2amel fara3 ben el jamel yali fa2 ba2don 
+ background-size: cover; haydi iza hatyan image ma ten2ad akter men mara tenhate mara wehde bas
