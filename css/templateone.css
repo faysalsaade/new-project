@@ -44,7 +44,7 @@
 }
 @media (max-width: 767px) {
   .special-heading + p {
-    margin-top: -20px;
+    margin-top: -21px;
   }
 }
 .header {
