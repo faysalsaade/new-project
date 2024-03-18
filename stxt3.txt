@@ -1,3 +1,5 @@
 ya habibi fi mawke2 ismou font awesom fik tjib menou element html bya2ti fiyon ikon w tehaten bi malef el html bel body
  max-width: 100%; fina nasta2mela hata iza kaber aw se3er el mobile ma yetla2 bara el screen  line-height: 1.8; bte2amel fara3 ben el jamel yali fa2 ba2don ya2ni bteba2edon an ba2don zyede vertical
- background-size: cover; haydi iza hatyan image ma ten2ad akter men mara tenhate mara wehde bas
+ background-size: cover; haydi iza hatyan image ma ten2ad akter men mara tenhate mara wehde bas letter-spacing: -3px; bte2amel masefe ben el ahrof iza zedet el px btzid el masefe ben el ahrof w iza 2amalet -Num(px) betsir bet2el el masefe ben el ahrof 
+ .special-heading + p {
+} haydi ya2ni el p yali ba2ed el element yali 2andou class special-heading
