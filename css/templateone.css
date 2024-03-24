@@ -335,3 +335,20 @@
     margin: 0 auto 60px;
   }
 }
+.contact {
+  background-color: #f6f6f6;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.contact .info {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  text-align: center;
+}
+.contact .info .label {
+  font-size: 35px;
+  font-weight: 800;
+  color: #333;
+  letter-spacing: -2px;
+  margin-bottom: 15px;
+}
