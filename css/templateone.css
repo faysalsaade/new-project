@@ -205,6 +205,7 @@
 .services .services-content .srv .text h3 {
   margin: 0 0 20px;
 }
+
 .services .services-content .srv .text p {
   color: #444;
   font-weight: 300;
@@ -216,17 +217,16 @@
 }
 .services .services-content .image::before {
   content: "";
-  position: absolute;
   background-color: #2c4755;
   width: 100px;
   height: calc(100% + 100px);
+  position: absolute;
   top: -50px;
   right: 0;
   z-index: -1;
 }
 .services .services-content .image img {
   width: 260px;
-  height: 250px;
 }
 @media (max-width: 1199px) {
   .image-column {
@@ -346,9 +346,43 @@
   text-align: center;
 }
 .contact .info .label {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 800;
   color: #333;
   letter-spacing: -2px;
   margin-bottom: 15px;
+}
+.contact .info .link {
+  display: block;
+  font-size: 35px;
+  font-weight: 800;
+  color: #10cab7;
+  text-decoration: none;
+}
+.contact .info .social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.contact .info .social i {
+  margin-left: 10px;
+  color: #10cab7;
+}
+@media (max-width: 767px) {
+  .contact .info .label,
+  .contact .info .link {
+    font-size: 25px;
+  }
+}
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.footer span {
+  font-weight: bold;
+  color: #10cab7;
 }
