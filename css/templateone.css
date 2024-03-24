@@ -386,3 +386,6 @@
   font-weight: bold;
   color: #10cab7;
 }
+html {
+  scroll-behavior: smooth;
+}
